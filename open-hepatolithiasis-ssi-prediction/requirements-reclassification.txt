@@ -1,3 +1,0 @@
-# Revised NRI/IDI environment; use Python 3.12.14.
-numpy==2.3.5
-matplotlib==3.11.2
