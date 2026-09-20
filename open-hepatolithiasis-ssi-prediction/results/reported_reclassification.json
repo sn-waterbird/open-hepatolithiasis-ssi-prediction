@@ -1,0 +1,58 @@
+{
+  "comparison": "Final retuned Top-4 uncalibrated vs full-64 uncalibrated CatBoost+S0",
+  "direction": "positive favors reduced model",
+  "n": 70,
+  "events": 11,
+  "bootstrap_n": 1000,
+  "bootstrap_seed": 42,
+  "numpy_version": "2.3.5",
+  "p_method": "two-sided normal approximation, original-sample estimate / bootstrap SE",
+  "parameters": {
+    "reduced": {
+      "depth": 3,
+      "learning_rate": 0.03,
+      "iterations": 300
+    },
+    "full": {
+      "depth": 3,
+      "learning_rate": 0.1,
+      "iterations": 300
+    }
+  },
+  "NRI": {
+    "estimate": -0.17257318952234207,
+    "SE": 0.2935705683016586,
+    "CI": [
+      -0.7384848484848485,
+      0.4
+    ],
+    "Z": -0.5878422708403602,
+    "p": 0.5566381681682251
+  },
+  "IDI": {
+    "estimate": -0.007176679221782393,
+    "SE": 0.036775901627004184,
+    "CI": [
+      -0.0794549715180316,
+      0.06757685541612195
+    ],
+    "Z": -0.1951462480667674,
+    "p": 0.845278457773691
+  },
+  "counts": {
+    "SSI": {
+      "n": 11,
+      "up": 8,
+      "down": 3,
+      "ties": 0,
+      "mean_delta": 0.02688434528712336
+    },
+    "nonSSI": {
+      "n": 59,
+      "up": 48,
+      "down": 11,
+      "ties": 0,
+      "mean_delta": 0.03406102450890575
+    }
+  }
+}
