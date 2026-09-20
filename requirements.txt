@@ -1,0 +1,8 @@
+# Core model workflow: Python 3.13.13; recorded study versions.
+numpy==2.4.5
+pandas==3.0.3
+scipy==1.17.1
+scikit-learn==1.8.0
+imbalanced-learn==0.14.1
+catboost==1.2.10
+xgboost==3.2.0
